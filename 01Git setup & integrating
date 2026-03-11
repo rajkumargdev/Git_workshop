@@ -1,43 +1,42 @@
 # Git Setup & GitHub Integration
-
-This module covers the essential first step
+This module covers the essential first steps
 
 ## 1. Installation on Linux
 To install Git on Ubuntu
 ```bash
 sudo apt update
 sudo apt install git -y
+```
 ![Git installation](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/fig1.png?raw=true)
 
-2. SSH Key Generation
+## 2. SSH Key Generation
 Generate a new SSH key to securely connect to GitHub without typing your password every time:
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 ![ssh key gen](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshgen.png?raw=true)
 
-go to sshkey location(location .ssh)
+Go to ssh key location (.ssh)
 ![ssh key location](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshkeylocation.png?raw=true)
 
-copy pub key
+Copy pub key
 ![copy key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/copypubkey.png?raw=true)
 
-3. Integrating with GitHub
+## 3. Integrating with GitHub
 Go to GitHub Settings > SSH and GPG keys > New SSH Key.
 ![integrate github](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrateingithub.png?raw=true)
 
-4.paste pub key & Add
+## 4. Paste pub key & Add
 ![paste key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/pastepubkeyingithub.png?raw=true)
 
-5. intergrated
+## 5. Integrated
 ![integrated](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
 
-6.connect through linux
+## 6. Connect through Linux
 ![connect](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
 
-done***
+**Done! ✅**
 
-
-Author
-RAJKUMAR GAALI
-< cloud engineer | devops >
-
-
+---
+**Author: RAJKUMAR GAALI**  
+*Cloud Engineer | DevOps*
