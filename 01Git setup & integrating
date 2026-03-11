@@ -1,0 +1,43 @@
+# Git Setup & GitHub Integration
+
+This module covers the essential first step
+
+## 1. Installation on Linux
+To install Git on Ubuntu
+```bash
+sudo apt update
+sudo apt install git -y
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/fig1.png
+
+2. SSH Key Generation
+Generate a new SSH key to securely connect to GitHub without typing your password every time:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshgen.png
+
+go to sshkey location(location .ssh)
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshkeylocation.png
+
+copy pub key
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/copypubkey.png
+
+3. Integrating with GitHub
+Go to GitHub Settings > SSH and GPG keys > New SSH Key.
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrateingithub.png
+
+4.paste pub key & Add
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/pastepubkeyingithub.png
+
+5. intergrated
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png
+
+6.connect through linux
+https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png
+
+done***
+
+
+Author
+RAJKUMAR GAALI
+< cloud engineer | devops >
+
+
