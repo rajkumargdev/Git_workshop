@@ -33,7 +33,7 @@ Go to GitHub Settings > SSH and GPG keys > New SSH Key.
 ![integrated](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/integrated.png)
 
 ## 6. Connect through Linux
-![connect](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/integrated.png)
+![connect](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/connectedthroughlinuxterminal.png)
 
 **Done! ✅**
 
